@@ -13,7 +13,7 @@ const timelineData = [
     location: "Nigeria, India",
     type: "Internship",
     logo: "../niit.png",
-    skills: ["JavaScript", "React", "Node.js"],
+    skills: ["Python", "RDBMS", "React"],
   },
   {
     id: 2,
