@@ -112,18 +112,8 @@ export default function Navbar() {
 
         {/* Mobile Navigation Toggle */}
         <div className="md:hidden flex items-center space-x-4">
-          <motion.a
-            href="https://calendly.com/aakash4dev/quickchat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white transition-colors duration-300"
-            aria-label="Schedule a meeting"
-            variants={iconVariants}
-            initial="initial"
-            whileHover="hover"
-          >
-            <Calendar size={24} />
-          </motion.a>
+          
+         
           <motion.a
             href="https://github.com/i-fetch"
             target="_blank"
@@ -137,7 +127,7 @@ export default function Navbar() {
             <Github size={24} />
           </motion.a>
           <motion.a
-            href="https://linkedin.com/in/aakash4dev"
+            href="https://www.linkedin.com/in/benjamin-okafor-8ba993249"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors duration-300"

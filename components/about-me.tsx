@@ -23,7 +23,7 @@ const timelineData = [
     location: "Worldwide",
     type: "Full-time",
     logo: "/company-b-logo.svg",
-    skills: ["React", "Next.js", "Tailwind CSS"," Node.js","PyQt","Django"],
+    skills: ["React", "Next.js", "Tailwind CSS", " Node.js", "PyQt", "Django"],
   },
 ]
 
@@ -80,28 +80,25 @@ export default function AboutMe() {
                 {/* Mobile description */}
                 <p className="text-lg leading-relaxed md:hidden">
                   Tech Sorcerer 🧙‍♂️ and Full Stack Dev . Building secure, scalable solutions in the
-                  tech-verse. From DeFi to Web3, turning complex tech into seamless experiences. 
+                  tech-verse. From DeFi to Web3, turning complex tech into seamless experiences.
                 </p>
                 {/* Desktop description */}
                 <div className="hidden md:block">
                   <p className="text-xl mb-4">
-                     <strong>Hey, I'm Motion!</strong>
+                    <strong>Hey, I'm Motion!</strong>
                   </p>
                   <p className="mb-4">
-                    A <strong>Web Wizard 🧙‍♂️</strong> and <strong>Full Stack Alchemist 💻</strong>, turning{" "}
-                    <strong>lines of code</strong> into <strong>decentralized magic</strong>! Whether it's{" "}
-                    <strong>smart contracts</strong>, <strong>ZK proofs</strong>, or <strong>FHE sorcery</strong>, I
-                    love pushing Web3 to the next level.
+                    A <strong>passionate Web Developer 💻</strong> and <strong>problem solver 🔍</strong> who turns{" "}
+                    <strong>ideas into interactive, functional experiences</strong>. Whether it's building intuitive UIs or powerful backend systems, I love crafting products that users love.
                   </p>
                   <p className="mb-4">
-                    I specialize in <strong>building secure, scalable solutions</strong> that make the tech-verse
-                    a better place. From <strong>DeFi</strong> to <strong>Web3</strong>, I turn complex tech into{" "}
-                    <strong>seamless experiences</strong>.
+                    I specialize in <strong>developing scalable, secure, and responsive web applications</strong>. From{" "}
+                    <strong>frontend design</strong> to <strong>backend logic</strong>, I bring full-stack solutions to life with clean code and performance in mind.
                   </p>
                   <p>
-                    Let's <strong>connect, build, and break things</strong>—because the{" "}
-                    <strong>future is decentralized, and I refuse to be left behind!</strong> 
+                    Let’s <strong>collaborate !! , Thank you ...</strong>
                   </p>
+
                 </div>
               </div>
             </div>

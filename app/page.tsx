@@ -241,7 +241,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row justify-center gap-4">
                     
                     <a
-                      href="https://drive.google.com/file/d/1Prtj5UBWzvVys8TviXZL-yN_551cRQJQ/view"
+                      href="https://drive.google.com/file/d/125SwiJ5Oo9VI2c6nFbeEAZ_AZOM2PFug/view?usp=drive_link"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700"
@@ -262,7 +262,7 @@ export default function Home() {
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             <SocialIcon icon={<Github />} href="https://github.com/i-fetch" label="GitHub" />
-            <SocialIcon icon={<Linkedin />} href="https://linkedin.com/in/aakash4dev" label="LinkedIn" />
+            <SocialIcon icon={<Linkedin />} href="https://www.linkedin.com/in/benjamin-okafor-8ba993249/" label="LinkedIn" />
             <SocialIcon
 
               icon={<Smartphone />}
