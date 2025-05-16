@@ -5,7 +5,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Motion - Web Developer & Full Stack Engineer",
   description:
-    "Portfolio of Motion, a Blockchain Developer and Full Stack Engineer specializing in Web3 technologies.",
+    "Portfolio of Motion, a Web Developer and Full Stack Engineer specializing in Web3 technologies.",
   generator: "Next.js",
 }
 

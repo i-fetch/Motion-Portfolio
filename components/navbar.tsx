@@ -97,7 +97,7 @@ export default function Navbar() {
             <Github size={24} />
           </motion.a>
           <motion.a
-            href="https://linkedin.com/in/aakash4dev"
+            href="https://www.linkedin.com/in/benjamin-okafor-8ba993249/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors duration-300"

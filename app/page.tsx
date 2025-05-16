@@ -69,7 +69,7 @@ export default function Home() {
               Hey! its Motion
             </h1>
             <h2 className="text-xl md:text-2xl mb-8 text-gray-300">
-              🚀 Web Developer | Full-Stack Developer | Tech Explorer
+              Web Developer | Full-Stack Developer | Tech Explorer
             </h2>
             <div className="flex flex-wrap justify-center gap-4">
               <ScrollLink to="work" smooth={true} duration={500}>
@@ -115,24 +115,16 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ServiceCard
                 icon={<Blocks className="w-10 h-10 text-purple-500" />}
-                title="Blockchain Development"
-                description="Custom blockchain solutions, smart contracts, and decentralized applications with a focus on security and efficiency."
+                title="Testing & Debugging"
+                description="Software Tester with a focus on Automation, Debugging, and Quality Assurance ."
               />
-              <ServiceCard
-                icon={<Cpu className="w-10 h-10 text-pink-500" />}
-                title="ZK & FHE Implementation"
-                description="Zero-knowledge proofs and fully homomorphic encryption solutions for privacy-preserving applications."
-              />
+             
               <ServiceCard
                 icon={<Braces className="w-10 h-10 text-purple-500" />}
                 title="Full Stack Development"
                 description="End-to-end web application development with modern frameworks and best practices."
               />
-              <ServiceCard
-                icon={<FileText className="w-10 h-10 text-pink-500" />}
-                title="Smart Contract Auditing"
-                description="Comprehensive security audits for smart contracts to identify vulnerabilities and ensure robust implementation."
-              />
+              
               <ServiceCard
                 icon={<Github className="w-10 h-10 text-purple-500" />}
                 title="Web3 Integration"
@@ -165,26 +157,21 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ProjectCard
-                title="Serverless Web3 Blog"
-                description="Decentralized blogging platform with permanent storage on Arweave and crypto micropayments."
-                tags={["Next.js", "Firebase", "Arweave", "Web3"]}
+                title="E-commerce Platform"
+                description="Full-stack e-commerce application for a Cafe with payment integration and user authentication."
+                tags={["Next.js", "Mongo-Db", "Nodemailer", ]}
               />
               <ProjectCard
-                title="Cross-Chain Bridge"
-                description="Secure bridge for asset transfers between different blockchain networks."
-                tags={["Cross-Chain", "Interoperability", "DeFi"]}
+                title="Student Database Management System(Desktop Application) "
+                description=" A web application for managing student record AKA crud application."
+                tags={["Python", "Tkiner", "MySQL"]}
                 image="/images/cross-chain-bridge.jpg"
               />
+              
               <ProjectCard
-                title="Decentralized Identity Solution"
-                description="Self-sovereign identity solution using blockchain technology."
-                tags={["DID", "Identity", "Blockchain"]}
-                image="/images/decentralized-identity.jpg"
-              />
-              <ProjectCard
-                title="Solidity Code Generator"
-                description="Tool for rapid development and testing of secure smart contracts."
-                tags={["Solidity", "Smart Contracts", "Development"]}
+                title="Harvard Django Test"
+                description="i participatd in a hackathon /test and built a web application using Django "
+                tags={["Django", "python", "HTML", "CSS"]}
                 image="/images/solidity-generator.jpg"
               />
             </div>
@@ -251,17 +238,8 @@ export default function Home() {
                   </Button>
                 </form>
                 <div className="mt-6 text-center">
-                  <p className="text-gray-400 mb-2">Prefer to schedule a meeting?</p>
                   <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <a
-                      href="https://calendly.com/aakash4dev/quickchat"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700"
-                    >
-                      <Calendar className="mr-2 h-4 w-4" />
-                      Schedule a Meeting
-                    </a>
+                    
                     <a
                       href="https://drive.google.com/file/d/1Prtj5UBWzvVys8TviXZL-yN_551cRQJQ/view"
                       target="_blank"
@@ -285,11 +263,8 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             <SocialIcon icon={<Github />} href="https://github.com/i-fetch" label="GitHub" />
             <SocialIcon icon={<Linkedin />} href="https://linkedin.com/in/aakash4dev" label="LinkedIn" />
-            <SocialIcon icon={<Twitter />} href="https://twitter.com/aakash4dev" label="Twitter" />
-            <SocialIcon icon={<MessageSquare />} href="https://discord.com/users/aakash4dev" label="Discord" />
-            <SocialIcon icon={<PenTool />} href="https://medium.com/@aakash4dev" label="Medium" />
             <SocialIcon
-            
+
               icon={<Smartphone />}
               href="#"
               label="Mobile Apps"

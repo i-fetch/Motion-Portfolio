@@ -7,44 +7,44 @@ import { Calendar, MapPin, Building2 } from "lucide-react"
 const timelineData = [
   {
     id: 1,
-    company: "Company A",
-    role: "Software Engineer",
-    period: "2020 - 2022",
-    location: "New York, NY",
-    type: "Full-time",
-    logo: "/company-a-logo.svg",
+    company: "NIIT Pune",
+    role: "Faculty of Computer Science",
+    period: "2022 - Present",
+    location: "Nigeria, India",
+    type: "Internship",
+    logo: "../niit.png",
     skills: ["JavaScript", "React", "Node.js"],
   },
   {
     id: 2,
-    company: "Company B",
-    role: "Frontend Developer",
+    company: "Self-Employed",
+    role: "Software Developer",
     period: "2022 - Present",
-    location: "San Francisco, CA",
+    location: "Worldwide",
     type: "Full-time",
     logo: "/company-b-logo.svg",
-    skills: ["React", "Next.js", "Tailwind CSS"],
+    skills: ["React", "Next.js", "Tailwind CSS"," Node.js","PyQt","Django"],
   },
 ]
 
 const skillsData = {
   "Programming Languages": [
     { name: "JavaScript", proficiency: 90 },
-    { name: "TypeScript", proficiency: 80 },
-    { name: "Python", proficiency: 70 },
-    { name: "Github", proficiency: 60 },
-    { name: "Django", proficiency: 50 },
+    { name: "TypeScript", proficiency: 70 },
+    { name: "Python", proficiency: 75 },
+    { name: "Github", proficiency: 70 },
+    { name: "Django", proficiency: 55 },
   ],
   "Frameworks/Libraries": [
     { name: "React", proficiency: 95 },
-    { name: "Next.js", proficiency: 85 },
+    { name: "Next.js", proficiency: 80 },
     { name: "Node.js", proficiency: 75 },
-    { name: "Express.js", proficiency: 65 },
+    { name: "Express.js", proficiency: 70 },
   ],
   Tools: [
     { name: "Git", proficiency: 98 },
-    { name: "Docker", proficiency: 88 },
-    { name: "Kubernetes", proficiency: 78 },
+    { name: "Docker", proficiency: 58 },
+    { name: "Android Studio", proficiency: 68 },
   ],
 }
 
@@ -62,7 +62,6 @@ export default function AboutMe() {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
               Code, Coffee & Me
             </span>
-            <span className="ml-2">☕💻</span>
           </h2>
           {/* Profile Section */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8 mb-16">
@@ -80,13 +79,13 @@ export default function AboutMe() {
               <div className="prose prose-invert max-w-none text-center md:text-left">
                 {/* Mobile description */}
                 <p className="text-lg leading-relaxed md:hidden">
-                  Tech Sorcerer 🧙‍♂️ and Full Stack Dev 💻. Building secure, scalable solutions in the
-                  tech-verse. From DeFi to Web3, turning complex tech into seamless experiences. ⛓⚡🔥
+                  Tech Sorcerer 🧙‍♂️ and Full Stack Dev . Building secure, scalable solutions in the
+                  tech-verse. From DeFi to Web3, turning complex tech into seamless experiences. 
                 </p>
                 {/* Desktop description */}
                 <div className="hidden md:block">
                   <p className="text-xl mb-4">
-                    🚀 <strong>Hey, I'm Motion!</strong>
+                     <strong>Hey, I'm Motion!</strong>
                   </p>
                   <p className="mb-4">
                     A <strong>Web Wizard 🧙‍♂️</strong> and <strong>Full Stack Alchemist 💻</strong>, turning{" "}
@@ -101,7 +100,7 @@ export default function AboutMe() {
                   </p>
                   <p>
                     Let's <strong>connect, build, and break things</strong>—because the{" "}
-                    <strong>future is decentralized, and I refuse to be left behind!</strong> ⛓⚡🔥
+                    <strong>future is decentralized, and I refuse to be left behind!</strong> 
                   </p>
                 </div>
               </div>
@@ -114,7 +113,6 @@ export default function AboutMe() {
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
                 The Road So Far
               </span>
-              <span className="ml-2 text-white">🛤️</span>
             </h3>
             <div className="relative">
               {/* Vertical Line (only visible on larger screens) */}
@@ -136,7 +134,7 @@ export default function AboutMe() {
                       <div className="flex flex-col md:flex-row items-center gap-4">
                         <div className="w-16 h-16 md:w-12 md:h-12 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden mb-4 md:mb-0 mx-auto md:mx-0">
                           <Image
-                            src={item.logo || "/placeholder.svg"}
+                            src={item.logo || "../niit.png"}
                             alt={item.company}
                             width={56}
                             height={56}
@@ -199,7 +197,6 @@ export default function AboutMe() {
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
                 Code Arsenal
               </span>
-              <span className="ml-2 text-white">⚔️</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {Object.entries(skillsData).map(([category, skills]) => (
