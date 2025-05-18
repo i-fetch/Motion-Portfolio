@@ -159,12 +159,12 @@ export default function Home() {
               <ProjectCard
                 title="E-commerce Platform"
                 description="Full-stack e-commerce application for a Cafe with payment integration and user authentication."
-                tags={["Next.js", "Mongo-Db", "Nodemailer", ]}
+                tags={["Next.js", "Mongo-DB", "Nodemailer", ]}
               />
               <ProjectCard
                 title="Student Database Management System(Desktop Application) "
                 description=" A web application for managing student record AKA crud application."
-                tags={["Python", "Tkiner", "MySQL"]}
+                tags={["Python", "Tktiner", "MySQL"]}
                 image="/images/cross-chain-bridge.jpg"
               />
               
